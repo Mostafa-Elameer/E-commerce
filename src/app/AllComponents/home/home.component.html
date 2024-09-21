@@ -3,7 +3,7 @@
     <owl-carousel-o [options]="customOptionsHomeSlider">
         @for (item of _sliderImagesHome; track $index) {
         <ng-template carouselSlide>
-            <div class="px-10 py-3">
+            <div class="md:px-10 py-3">
                 <img class="h-64 w-full cursor-pointer" [src]="item.image">
             </div>
         </ng-template>
